@@ -1,0 +1,24 @@
+#############################################
+# Exercise One - ResPlat Github Workshop
+# 
+# Author: Vivek Katial
+############################################
+
+'''
+This is the first exercise in the workshop.
+
+The purpose of this exercise is to learn how to commit changes
+
+Tasks:
+1. Fork this repository
+2. Find the bug in the repository
+3. Fix the bug locally (test aswell)
+4. Commit the fix to your own repository
+5. Push changes up!
+'''
+
+# Declare Viveks Favourite Country
+viveks_fave_asian_country="Vietnam"
+
+# Print output
+print("Vivek's favourite country is %s" % viveks_fave_country)
