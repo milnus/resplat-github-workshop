@@ -10,8 +10,8 @@ This is the first exercise in the workshop.
 The purpose of this exercise is to learn how to commit changes
 
 Tasks:
-1. Fork this repository
-2. Find the bug in the repository
+1. Fork this repository (resplat-github-workshop)
+2. Find the bug in the file
 3. Fix the bug locally (test aswell)
 4. Commit the fix to your own repository
 5. Push changes up!
