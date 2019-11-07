@@ -37,29 +37,6 @@ output: revealjs::revealjs_presentation
 
 # Getting Started
 
-## Install git and create GitHub Account
-
-- Check if Git is installed:
-  - Command: `$ git --version`
-- Linux (Debian)
-  - Command: `sudo apt-get install git`
-- Linux (Fedora)
-  - Command: `sudo yum install git`
-- Mac OSX
-  - https://git-scm.com/download/mac
-- Windows
-  - https://git-scm.com/download/windows
-  
-## Configure Github
-
-<section>
-	<pre><code data-trim data-noescape>
-      git config --global user.name 'Aaron Carlson'
-      git config --global user.email 'abc1234@psu.edu'
-      git config --global --list
-	</code></pre>
-</section>
-
 ## Who saves files like this?
 <img src="images/bad-vc-example.png">
 
@@ -104,6 +81,29 @@ output: revealjs::revealjs_presentation
 - **Git Lab** -- Melbourne University has it's own instance
 
 # Basics
+
+## Install git and create GitHub Account
+
+- Check if Git is installed:
+  - Command: `$ git --version`
+- Linux (Debian)
+  - Command: `sudo apt-get install git`
+- Linux (Fedora)
+  - Command: `sudo yum install git`
+- Mac OSX
+  - https://git-scm.com/download/mac
+- Windows
+  - https://git-scm.com/download/windows
+  
+## Configure Github
+
+<section>
+	<pre><code data-trim data-noescape>
+      git config --global user.name 'Vivek Katial'
+      git config --global user.email 'vivekkatial@gmail.com'
+      git config --global --list
+	</code></pre>
+</section>
 
 ## Quick Summary of UNIX/Terminal Commands
 
@@ -293,6 +293,16 @@ The extension .md stands for *Markdown*. Markdown is a lightweight markup langua
 
 (PS: These slides were also made in markdown)
 
-## GitHub vs GitLab
+## GitLab CICD
+
+- GitLab CI (Continuous Integration): **Builds** and **tests** your code whenever you push. 
+- GitLab CD (Continuous Deployment):  Puts the changes of every code in the production which resulting in every day deployment of an application.
+- CICD is very powerful and builds testing into your workflow.
+
+## Extra Links
+
+- Github without password: https://help.github.com/en/github/using-git/caching-your-github-password-in-git
+- GitLab CICD: https://docs.gitlab.com/ee/ci/
+- My Github: https://github.com/vivekkatial
 
 
