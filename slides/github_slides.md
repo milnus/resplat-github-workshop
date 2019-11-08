@@ -108,10 +108,10 @@ output: revealjs::revealjs_presentation
 ## Quick Summary of UNIX/Terminal Commands
 
 - `ls`: List files (`-a` List all files `-h` Human readable) 
+- `cd`: Change directory
 - `mkdir`: Make directory
 - `touch`: Make a file
-- `cd`: Change directory
-- `rm`: Remove file (`i` tag)
+- `rm`: Remove file (`-i` tag)
 - `mv`: Move files (Similar to cut)
 - `cp`: Copy files
 - Checkout Meirians Linux Course to learn more
@@ -162,7 +162,8 @@ There are two ways to make your own repository.
 ## Git Basics Excercise 1
 
 1. Fork my repository locally: https://github.com/vivekkatial/resplat-github-workshop
-2. Using **only** command line, move into the folder for exercise one.
+2. Clone the forked repository onto your computer
+2. Using command line, move into the folder for exercise one. (Otherwise  just use your file browser)
 2. Find a bug in my file `travel.py` or `travel-blog.html`
 3. After finding the bug, fix it and commit it to your forked repository.
 
@@ -170,7 +171,7 @@ There are two ways to make your own repository.
 
 1. Create a new repository on Github
 2. Clone the repository on your local
-3. Make a new file "<YOUR_NAME>.txt"
+3. Make a new file "YOUR_NAME.txt"
 4. Save this file and **stage**
 5. Commit this file
 6. Push changes to your Github repository
