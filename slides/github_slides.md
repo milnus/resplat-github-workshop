@@ -61,15 +61,21 @@ output: revealjs::revealjs_presentation
 - Git is **local**:
   - Except pulling and pushing to remote servers
 - Git is **fast**
-- Git is **distributed**
 - Git versions the *project* not files
 - In Git each version is delibaretly tied to a meaningful change
 
-## Short History of Git/Github
+
+## Short History of Git
 
 - Git was first created in 2005 by *Linus Torvalds* to aid in Linux Kernel development
 - Built for social coding
 <br>
+<p style="text-align:center;">
+<img src="images/github-linus-quote.jpg" height="450" class="center">
+</p>
+
+## Short History of Github
+
 - Github is an American company that provides hosting for software development version control using Git
 - Github was acquired by Microsoft in 2018 for $7.5 Billion USD
 - Git is now industry standard for any software project
@@ -97,13 +103,11 @@ output: revealjs::revealjs_presentation
   
 ## Configure Github
 
-<section>
-	<pre><code data-trim data-noescape>
-      git config --global user.name 'Vivek Katial'
-      git config --global user.email 'vivekkatial@gmail.com'
-      git config --global --list
-	</code></pre>
-</section>
+```shell
+git config --global user.name 'Vivek Katial'
+git config --global user.email 'vivekkatial@gmail.com'
+git config --global --list
+```
 
 ## Quick Summary of UNIX/Terminal Commands
 
@@ -111,15 +115,31 @@ output: revealjs::revealjs_presentation
 - `cd`: Change directory
 - `mkdir`: Make directory
 - `touch`: Make a file
+
+## Quick Summary of UNIX/Terminal Commands
+
 - `rm`: Remove file (`-i` tag)
 - `mv`: Move files (Similar to cut)
 - `cp`: Copy files
+
+\newline
+
 - Checkout Meirians Linux Course to learn more
 
 ## New Names for things
 
 - Folders are directories
 - Main folder is your "repository"
+
+## UNIX Commands Exercise
+
+1. Navigate to your documents directory
+2. Create a file called `your_favourite_city.txt`
+3. Make a directory called `travel_blog`
+4. Move the file you created into the `travel_blog` directory
+5. Go into the directory and check  that the file is there on your file browser and command line
+6. Delete the directory you just created (**use the -i tag**)
+
 
 ## Creating your own repository!
 
@@ -128,16 +148,19 @@ There are two ways to make your own repository.
 1. Locally by running `git init`
 2. Online on Github
 
-## Basic summary of git commands
+## Basic summary of Git commands
 
 - `git clone`: Clone a repository into a new directory
 - `git status`: Show the working tree status
-- `git log`: Show commit logs
-- `git diff`: Show changes between commits
-- `git pull`: Fetch from and integrate with another repository or a local branch
-- `git commit`: Record changes to the repository
 - `git add`: Stage changes for the commit
+- `git commit`: Record changes to the repository
 - `git push`: Update remote refs along with associated objects
+
+## Basic Summary  of Git Commands
+
+- `git pull`: Fetch from and integrate with another repository or a local branch
+- `git diff`: Show changes between commits
+- `git log`: Show commit logs
 - Cheat Sheet attached
 
 ## Git Workflow
@@ -147,10 +170,6 @@ There are two ways to make your own repository.
 ## Git Workflow
 
 <img src="images/multiple-changes-workflow.png">
-
-## Recording Changes
-
-(Demo)
 
 ## Viewing your commit history
 - `git log`
@@ -163,9 +182,10 @@ There are two ways to make your own repository.
 
 1. Fork my repository locally: https://github.com/vivekkatial/resplat-github-workshop
 2. Clone the forked repository onto your computer
-2. Using command line, move into the folder for exercise one. (Otherwise  just use your file browser)
-2. Find a bug in my file `travel.py` or `travel-blog.html`
-3. After finding the bug, fix it and commit it to your forked repository.
+3. Using command line, move into the folder for exercise one. (Otherwise  just use your file browser)
+4. Find the bug in my file `travel-blog.md`
+5. After finding the bug, fix it and commit it to your forked repository.
+6. **Extra for experts:** Find the bug in my python code, fix it and commit my changes
 
 ## Git Basics Excercise 2
 
@@ -177,6 +197,7 @@ There are two ways to make your own repository.
 6. Push changes to your Github repository
 
 # Branches
+
 
 ## What is a branch?
 
@@ -190,6 +211,10 @@ There are two ways to make your own repository.
 - Isolate work units - (keeping unfinished work separate)
 - Working on long running topics 
 - Allow you to share work in progress without altering live/production code
+
+##  Why  Branching?
+
+<img src="images/git-branch-meme.jpg">
 
 ## Branch Workflow
 
@@ -277,7 +302,7 @@ You will often find that sometimes you don't want `git` to track everything. The
 - **Why?** Good commit messages help you travel back in time and view what each change meant
 - Helps your collobarators understand your changes
 - Don't explain how it was done, explain what the intention  was  and **why**
-- Use proper english and reference issue identfiers where possible
+- Use proper english and reference issue identifiers where possible
 - If you want to amend a commit message use the following command:
 ```
 git commit -a --amend
