@@ -27,10 +27,3 @@ These are the the seven continents:
 4. Europe
 5. Africa
 6. Antarctica
-
-
-My favourite continent is Asia
-
-## My last trip
-
-I just went to Europe and saw dragons in Kings Landing!!
