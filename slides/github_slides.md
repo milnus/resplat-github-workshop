@@ -17,7 +17,7 @@ output: revealjs::revealjs_presentation
   }
 </style>
 
-- Check out the slides at https://shorturl.at/mrG25
+- Check out the slides at https://tinyurl.com/rpoe9jw
 
 # Introduction
 
