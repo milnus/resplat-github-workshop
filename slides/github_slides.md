@@ -25,7 +25,7 @@ output: revealjs::revealjs_presentation
 
 - Vivek Katial (vkatial@student.unimelb.edu.au)
   - PhD Candidate (Optimisation on Quantum Computers)
-  - Industry Data Scientist (3-4 years)
+  - Data Scientist (3 years)
 - I love travelling and trying new types of food and meeting interesting people
 
 <img src="https://scontent.fcbr1-1.fna.fbcdn.net/v/t31.0-8/20424095_10212500176676137_7893046189014254136_o.jpg?_nc_cat=111&_nc_oc=AQlSZg4nvOv_P6t7i26DFdDtREK6Hu86Q7xPrjo37iGxHrMKiXq-aVCVqIzfhb6miU0&_nc_ht=scontent.fcbr1-1.fna&oh=86b20ca3beb035f4a71805747d0b9cb9&oe=5E243E53" alt="Smiley face" height="300" width="300">
@@ -332,5 +332,9 @@ The extension .md stands for *Markdown*. Markdown is a lightweight markup langua
 - Github without password: https://help.github.com/en/github/using-git/caching-your-github-password-in-git
 - GitLab CICD: https://docs.gitlab.com/ee/ci/
 - My Github: https://github.com/vivekkatial
+
+# Thank You!
+
+vkatial@student.unimelb.edu.au
 
 
