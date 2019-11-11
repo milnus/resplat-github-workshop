@@ -21,4 +21,4 @@ Tasks:
 viveks_fave_asian_country="Vietnam"
 
 # Print output
-print("Vivek's favourite country is %s" % viveks_fave_country)
+print("Vivek's favourite country is %s" % viveks_fave_asian_country)
